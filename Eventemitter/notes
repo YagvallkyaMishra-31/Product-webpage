@@ -1,0 +1,5 @@
+Event driven architecture is a desgin pattern where the flow of the 
+application is determined by event such as user action.
+.on(event,listener)-> it register a event
+.emit(event,data)-> it emit(trigger the) a event
+event name is the string based

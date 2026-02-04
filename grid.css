@@ -1,0 +1,93 @@
+.container{
+    border: 2px solid black;
+    display: flex;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    margin: 5px;
+    color: white;
+    text-align: center;
+    line-height: 100px;
+}
+.grid-container{
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+.item{
+    background: steelblue;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin: 5px;
+}
+.box-two{
+    width: 300px;
+    height: 150px;
+    background-color: blue;
+    text-align: center;
+    line-height: 150px;
+    font-size: 20px;
+}
+/* syntax=@media(condtion){
+
+} */
+@media (min-width:1200px){
+    .box-two{
+        background-color: red;
+        width: 100%;
+        font-size: 16px;
+    }
+}
+.navbar{
+    padding: 10px;
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+.menu a{
+    margin-left: 10px;
+    color: white;
+    text-decoration: none;
+}
+@media (max-width:600px){
+    .navbar{
+        flex-direction: column;
+        align-items: center;
+    }
+    .menu a{
+        display: block;
+        margin: 5px 0;
+    }
+}
+.box-three{
+    width: 70px;
+    height: 100px;
+    background-color: yellowgreen;
+    border: 2px solid black;
+    margin: 10px;
+}
+.statc{
+    position: relative;
+    top: 20px;
+}
+.relative{
+    position: relative;
+    top: 20px;
+}
+.absolute{
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    background-color: red;
+    color: white;
+}
+.parent{
+    height: 200px;
+    width: 200px;
+    
+}

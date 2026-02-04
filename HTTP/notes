@@ -1,0 +1,60 @@
+HTTP(hyper text transfer protocol) it is an communication protocol used to transfer data between client(browser) and server to talk
+HTTP stateless-> it means server does not remember any previous request from the client
+HTTP stateful-> it means server remembers the previous request from the client
+previous request
+user data
+login state
+bcz of this we use cookies ,sessions and jwt tokens
+HTTP request structure-> Every request has 4 main parts
+1. URL
+2. HTTP Method
+3. Headers
+4. Body(optional)
+HTTP methods-> 
+1. GET-> to fetch data from server
+2. POST-> to send data to server
+3. PUT-> to update data in server
+4. DELETE-> to delete data from server
+5. PATCH-> to partially update data in server
+6. HEAD-> to get headers from server
+7. OPTIONS-> to get options from server
+8. TRACE-> to get trace from server
+9. CONNECT-> to get connect from server
+Headers->Extra information about the request 
+exmaple:- content-type,application/json,semicolon,authorization data format and caching
+Body->it contains actual data sent to the server only in post,put,patch methods
+server response structure-> Every response has 4 main parts
+1. Status Code
+2. Headers
+3. Body(optional)
+Node js follows an event listener type architecture
+1. Event loop
+2. Event emitter
+3. Event handler
+HTTP module is a built in module in node js and we use it to create a server
+Create server-> it register a server and this callback runs every time a request is made.
+Except Callback
+callback runs on every request
+listen-> it starts the server and listen for incoming requests
+req-> request object
+res-> response object
+backend never sends data as json
+JSON-> javascript object notation
+reason behind using json->bcz frontend understand json easily
+setting response header->res.wrightHead()
+set status code->res.statusCode
+set response header->res.setHeader()
+example:-200->Success
+404->Not Found
+500->Internal Server Error
+600->Custom Error
+Sending the response body->res.write()
+ending the response->res.end() it ends the response
+sends data to client
+JSON.stringify()-> it converts json to string
+start listening of the port->server.listen()
+start server 
+port=communication end point
+Routing-> it is a process of matching the url with the request(url based request handling)
+diff url->diff response
+implement using req.url

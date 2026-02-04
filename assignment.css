@@ -1,0 +1,45 @@
+.start{
+    border: 100px;
+    border-color: black;
+}
+.a{
+    color: black;
+    text-align: center;
+}
+.b{
+    color:  skyblue;
+    text-align:center;
+}
+.c{
+    color: black;
+    text-align: center;
+}
+.f{
+    color: cadetblue;
+    display: flex;
+    justify-content: space-around;
+}
+.z{
+    color: green;
+    text-align: center;
+}
+.x{
+    color: green;
+    text-align: center;
+}
+.y{
+    color: green;
+    text-align: center;
+}
+.d{
+    color: black;
+    text-align: center;
+}
+.e{
+    color: black;
+    text-align: center;
+}
+.f{
+    color: black;
+    text-align: center;
+}

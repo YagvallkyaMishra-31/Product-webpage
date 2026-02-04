@@ -1,0 +1,89 @@
+.logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(to right, skyblue, red);
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+}
+
+.box:hover {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.home {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.inner {
+    width: 300px;
+    height: 200px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.bar {
+    width: 70%;
+    height: 100%;
+    background-color: lightcoral;
+    color: #fff;
+    text-align: center;
+    /* padding: 20px; */
+    border-radius: 10px;
+}
+
+.child {
+    width: 70%;
+    height: 100%;
+    border-radius: 10px;
+    justify-content: left;
+    background-color: lightgreen;
+    color: #fff;
+    text-align: center;
+
+}
+
+.circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.card:hover {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+}
