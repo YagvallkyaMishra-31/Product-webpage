@@ -1,0 +1,2 @@
+zod is a schema description language and data validator library for JavaScript objects.
+it is used to validate and also to check its type of the data before it is processed.
