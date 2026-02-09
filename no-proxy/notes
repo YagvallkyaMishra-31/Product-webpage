@@ -1,0 +1,10 @@
+proxy(server side rendering):-we are building node js server that act as a fake server
+the browser will not call the api directly
+our server will call the api convert data into html and then send the html to the browser
+browser->server->api->data->server->html->browser
+fetch happens int he server not on the browser
+If you cant see the api call in the browser then fetch is happening in the server
+API need JSON browser need html and server does the conversion
+hydrate template + data->final html
+if api is not visible inside network tag then it is protected
+frontend fetch depends on api speed proxy hides api and gives control

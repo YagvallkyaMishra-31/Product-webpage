@@ -1,0 +1,44 @@
+mvc architecture(model view controller):-
+request
+controller
+services
+DAL
+Database
+Model:-Model represent the datastructure and roles
+Example:-id
+         name
+         age
+view:-view handles ui rendering
+controller:-
+            role of controller is to handle the request and response
+            it is the brain of the application
+            it is the middle layer between model and view
+            call services
+            sends status code and response to the client
+            Example:- const,getusers=AsyncHandler(async(req,res)=>{
+                const users=await User.find();
+                res.status(200).json(users);
+            })
+Services:- What is service layer?
+            ->contains business logic,validation rule,calculation and workflow
+            ->it is the middle layer between controller and DAL
+            ->Example:- const,getusers=AsyncHandler(async(req,res)=>{
+                const users=await User.find();
+                res.status(200).json(users);
+            })
+DAL:-Data Access Layer
+            ->it handles database operations only
+            ->it is the middle layer between service and database
+            ->Example:- const,getusers=AsyncHandler(async(req,res)=>{
+                const users=await User.find();
+                res.status(200).json(users);
+            })
+
+DTO:-Data Transfer Object
+            ->it is used to transfer data between layers
+            ->height sensitive
+            ->it is the middle layer between service and client
+            ->Example:- const,getusers=AsyncHandler(async(req,res)=>{
+                const users=await User.find();
+                res.status(200).json(users);
+            })

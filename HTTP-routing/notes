@@ -1,0 +1,7 @@
+HTTP methods:-
+define action on server
+get->read
+post->create
+put->update
+patch->update
+delete->delete
